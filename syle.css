@@ -183,3 +183,124 @@ footer {
   color: white;
   width: 100%;
 }
+
+@media (max-width: 992px) {
+  h1 {
+    padding: 20px 10px;
+    font-size: 30px;
+  }
+
+  .guess-game {
+    width: 700px;
+    flex-wrap: wrap-reverse;
+    .game-area {
+      .inputs {
+        > div {
+          span {
+            font-size: 23px;
+            margin-right: 10px;
+          }
+        }
+        input {
+          width: 40px;
+          height: 30px;
+          font-size: 20px;
+          border-bottom: 1px solid #333;
+        }
+      }
+
+      .control {
+        width: 700px;
+        button {
+          font-size: 20px;
+          padding: 10px 10px;
+        }
+      }
+      .message {
+        font-size: 20px;
+        span {
+          font-size: 25px;
+        }
+      }
+    }
+    .key-colors {
+      width: 700px;
+      margin-bottom: 10px;
+      .key-color {
+        padding: 15px 10px;
+        .key {
+          width: 20px;
+          height: 20px;
+        }
+        .key-text {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  footer {
+    padding: 15px 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 27px;
+    margin: 0;
+  }
+
+  .guess-game {
+    width: 300px;
+    flex-wrap: wrap-reverse;
+    .game-area {
+      .inputs {
+        width: 300px;
+
+        > div {
+          span {
+            font-size: 20px;
+            margin-right: 5px;
+          }
+        }
+        input {
+          width: 30px;
+          height: 30px;
+          font-size: 20px;
+          border-bottom: 1px solid #333;
+        }
+      }
+
+      .control {
+        width: 300px;
+        button {
+          font-size: 20px;
+          padding: 10px 4px;
+        }
+      }
+      .message {
+        font-size: 14px;
+        span {
+          font-size: 20px;
+        }
+      }
+    }
+    .key-colors {
+      .key-color {
+        .key {
+          width: 15px;
+          height: 15px;
+          margin-right: 5px;
+        }
+        .key-text {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  footer {
+    margin-top: 15px;
+    padding: 8px 5px;
+  }
+}

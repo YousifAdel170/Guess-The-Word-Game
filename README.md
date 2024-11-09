@@ -12,15 +12,15 @@ https://yousifadel170.github.io/Guess-The-Word-Game/
 
 Players have a fixed number of tries to guess a six-letter word. After each attempt, letters are color-coded to provide hints:
 
-#### Green
+#### - Green
 
 indicates that the letter is correct and in the correct position.
 
-#### Yellow
+#### - Yellow
 
 indicates that the letter is correct but in the wrong position.
 
-#### Red
+#### - Red
 
 indicates an incorrect letter.
 
