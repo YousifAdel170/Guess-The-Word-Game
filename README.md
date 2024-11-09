@@ -2,6 +2,10 @@
 
 A fun and interactive "Guess The Word" game where players try to guess a hidden word within a limited number of attempts. This game is built with vanilla JavaScript, HTML, and CSS, making it a lightweight yet engaging browser-based word puzzle.
 
+## Live Demo:
+
+https://yousifadel170.github.io/Guess-The-Word-Game/
+
 ## Game Features
 
 ### Word Guessing Mechanics:
